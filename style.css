@@ -87,7 +87,7 @@ hr {
   border: 1px solid black;
 }
 
-/* Flexbox layout */
+/* Flexbox layouts */
 .side-by-side {
   display: flex;
 }
