@@ -33,13 +33,17 @@ article {
 }
 
 article div {
-  text-align: center;
   width: 100%;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.column p {
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Links */
@@ -60,11 +64,17 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  text-align: center;
+}
+
+.centered-img-div {
+  text-align: center;
 }
 
 /* Footer */
@@ -75,4 +85,21 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/* Flexbox layout */
+.side-by-side {
+  display: flex;
+}
+
+.side-by-side div {
+  margin: auto;
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 1%;
 }
